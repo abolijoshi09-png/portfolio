@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aboli | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2 class="logo">Aboli Ajinkya Anwekar</h2>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="btn-group">
+  <button onclick="scrollToContact()">Hire Me</button>
+  
+  <a href="My CV-1.pdf" download class="cv-btn">Download CV</a>
+</div>
+
+  <!-- Home -->
+  <section id="home" class="home">
+    <h1>Hello, I'm <span>Aboli Joshi</span></h1>
+    <p>Frontend Developer | HTML • CSS • JavaScript</p>
+
+    <div class="btn-group">
+      <button onclick="scrollToContact()">Hire Me</button>
+      <a href="cv.pdf" download class="cv-btn">Download CV</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+    I am a motivated and detail-oriented professional with a strong interest in web development and modern technologies. I have hands-on experience in HTML, CSS, JavaScript, and responsive design. I enjoy creating user-friendly and visually appealing websites. I am always eager to learn new skills and improve my technical knowledge. I believe in writing clean, efficient code and delivering quality work.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Git & GitHub</span>
+      <span>React js</span>
+      <span>teamwork</span>
+      <span>team handling</span>
+      <span>strong communication Skills</span>
+      <span>problem solving Skills</span>
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio using HTML, CSS & JS</p>
+    </div>
+    <div class="project-card">
+      <h3>study material App</h3>
+      <p>study material app using JavaScript</p>
+      <h4>Ai image generator</h4>
+      <p>Ai image generator app using javascript API</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Aboli Joshi | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
